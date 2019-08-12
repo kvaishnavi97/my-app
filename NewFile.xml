@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="restassuredsuite">
+ <test name="restassuredtest">
+   <classes>
+     <class name="myProject.RestAssured1"/>
+      <class name="myProject.Restassured"/>
+       <class name="myProject.Restpost"/>
+        <class name="myProject.Restsingleget"/>
+         <class name="myProject.Example"/>
+           <class name="myProject.Driventest"/>
+                      <class name="myProject.Datadriven"/>
+           
+     
+   </classes>
+ </test>
+</suite>

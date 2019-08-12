@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="myProject.RestAssured1"/>
+      <class name="myProject.Restassured"/>
+       <class name="myProject.Restpost"/>
+        <class name="myProject.Restsingleget"/>
+         <class name="myProject.Example"/>
+           <class name="myProject.Driventest"/>
+                      <class name="myProject.Datadriven"/>
+           
+        <methods>
+          <include name="getinfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- myProject.Datadriven -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
