@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-15T08:17:22Z" name="restassuredsuite" finished-at="2019-08-15T08:17:36Z" duration-ms="14328">
+    <groups>
+    </groups>
+    <test started-at="2019-08-15T08:17:22Z" name="restassuredtest" finished-at="2019-08-15T08:17:36Z" duration-ms="14328">
+      <class name="myProject.Restassured">
+        <test-method signature="RegistrationSuccessful()[pri:0, instance:myProject.Restassured@6ae5aa72]" started-at="2019-08-15T08:17:33Z" name="RegistrationSuccessful" finished-at="2019-08-15T08:17:34Z" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationSuccessful -->
+      </class> <!-- myProject.Restassured -->
+      <class name="myProject.Restsingleget">
+        <test-method signature="getsingle()[pri:0, instance:myProject.Restsingleget@222545dc]" started-at="2019-08-15T08:17:27Z" name="getsingle" finished-at="2019-08-15T08:17:28Z" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingle -->
+        <test-method signature="getsingle1()[pri:0, instance:myProject.Restsingleget@222545dc]" started-at="2019-08-15T08:17:28Z" name="getsingle1" finished-at="2019-08-15T08:17:29Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingle1 -->
+      </class> <!-- myProject.Restsingleget -->
+      <class name="myProject.Datadriven">
+        <test-method signature="getinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Datadriven@16293aa2]" started-at="2019-08-15T08:17:32Z" name="getinfo" data-provider="infoP" finished-at="2019-08-15T08:17:32Z" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aishwarya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["35"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinfo -->
+        <test-method signature="getinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Datadriven@16293aa2]" started-at="2019-08-15T08:17:32Z" name="getinfo" data-provider="infoP" finished-at="2019-08-15T08:17:33Z" duration-ms="625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Udhav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KPIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["33"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinfo -->
+        <test-method signature="getinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Datadriven@16293aa2]" started-at="2019-08-15T08:17:33Z" name="getinfo" data-provider="infoP" finished-at="2019-08-15T08:17:33Z" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KPIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["36"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinfo -->
+      </class> <!-- myProject.Datadriven -->
+      <class name="myProject.Example">
+        <test-method signature="postaddinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Example@5c5eefef]" started-at="2019-08-15T08:17:34Z" name="postaddinfo" data-provider="infop1" finished-at="2019-08-15T08:17:35Z" duration-ms="609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakshanda1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KPIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postaddinfo -->
+        <test-method signature="postaddinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Example@5c5eefef]" started-at="2019-08-15T08:17:35Z" name="postaddinfo" data-provider="infop1" finished-at="2019-08-15T08:17:36Z" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KPIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postaddinfo -->
+        <test-method signature="postaddinfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:myProject.Example@5c5eefef]" started-at="2019-08-15T08:17:36Z" name="postaddinfo" data-provider="infop1" finished-at="2019-08-15T08:17:36Z" duration-ms="657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omkar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paramatrix]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postaddinfo -->
+      </class> <!-- myProject.Example -->
+      <class name="myProject.RestAssured1">
+        <test-method signature="GetWeatherDetails()[pri:0, instance:myProject.RestAssured1@6c64cb25]" started-at="2019-08-15T08:17:22Z" name="GetWeatherDetails" finished-at="2019-08-15T08:17:27Z" duration-ms="4953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
+      </class> <!-- myProject.RestAssured1 -->
+    </test> <!-- restassuredtest -->
+  </suite> <!-- restassuredsuite -->
+</testng-results>
